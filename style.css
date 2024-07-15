@@ -1,0 +1,184 @@
+@font-face {
+    font-family: Outfit Light;
+    src: url(/fonts/outfit/OFL.txt);
+}
+
+/* universal selector to remove default settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* body */
+body {
+    background-color: rgb(225, 192, 160);
+    font-family: Outfit;
+
+
+}
+
+/* main container */
+.container {
+    background-color: white;
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+/* image section */
+.top-con {
+    margin-top: 20px;
+    width: 95%;
+    padding: 10px;
+}
+
+.top-con p {
+    padding: 10px;
+
+}
+@font-face {
+    font-family: Young Serif;
+    src: url(/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+.top-con h1 {
+    padding:  15px 0 10px 0;
+    font-family: Young Serif;
+}
+
+.top-con img {
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/* preparation */
+.prep {
+    background-color: antiquewhite;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+
+
+}
+.prep h3{
+    padding:10px 0;
+    color:rgb(133, 42, 57)
+}
+
+.prep ul {
+    margin-left: 20px;
+}
+
+.prep ul li {
+    padding: 5px;
+}
+
+
+
+/* ingredients */
+.Ingred {
+    padding: 10px;
+    width: 95%;
+    margin-top: 15px;
+}
+
+.Ingred h2 {
+    font-family:Young serif;
+    color:rgb(130, 24, 24);
+}
+
+.Ingred ul {
+    margin-left: 15px;
+    padding: 15px;
+    
+}
+
+.Ingred ul li {
+    padding: 5px;
+    
+}
+.Ingred ul li::marker{
+    color:rgb(130, 24, 24);
+}
+
+/*instructions */
+
+.instruct {
+    width: 95%;
+    padding: 10px;
+}
+.instruct h2{
+    font-family:Young Serif;
+    color:rgb(130, 24, 24);
+}
+.instruct ol {
+    margin-left: 15px;
+    padding: 15px;
+
+}
+
+.instruct ol li {
+    padding: 5px;
+}
+.instruct ol li::marker{
+    color:rgb(130, 24, 24);
+    font-weight:bold;
+}
+
+/* Nutrition */
+.Nutrition {
+    width: 95%;
+    padding: 10px;
+}
+
+.Nutrition h2 {
+    padding: 5px;
+    font-family:Young Serif;
+    color:rgb(130, 24, 24);
+}
+
+.Nutrition p {
+
+    padding: 10px;
+    margin: 0 auto;
+
+}
+
+.Nutrition table {
+    padding: 25px;
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.Bord1{
+    border-bottom: 1px solid black;
+}
+
+td {
+    padding: 10px;
+}
+
+.Nutrition .col2{
+    color:rgb(130, 24, 24);
+    font-weight:bold;
+}
+
+/* hr */
+hr {
+    margin: 5px 0;
+}
